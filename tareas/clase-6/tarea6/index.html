@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <h1>Ingrese cantidad de integrantes de la familia</h1>
+            <input type="number" id="input-total-integrantes">
+            <button id="button-total-integrantes">Ingresar integrantes</button>
+        </div>
+        
+        <div id="integrantes">
+
+        </div>
+        
+        <button id="button-calculate" class="oculto">Calcular Edad</button>
+        <button id="boton-calcular-salario" class="oculto">Calcular Salario</button>
+        <button id="button-reset" class="oculto">Reset</button>
+
+        <div id="calculations" class="oculto">
+            <p>Mayor Edad: <strong id="older-age"></strong></p>
+            <p>Menor Edad: <strong id="younger-age"></strong></p>
+            <p>Promedio Edad: <strong id="average-age"></strong></p>
+        </div>
+
+        <div id="resultados-calculos-salario" class="oculto">
+            <p>Mayor Salario Anual: <strong id="mayor-salario-anual"></strong></p>
+            <p>Menor Salario Anual: <strong id="menor-salario-anual"></strong></p>
+            <p>Promedio Salario Anual; <strong id="promedio-salario-anual"></strong></p>
+            <p>Promedio Salario Mensual: <strong id="promedio-salario-mensual"></strong></p>
+        </div>
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
